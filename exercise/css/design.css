@@ -1,0 +1,16 @@
+div.container{
+    width: 500px;
+    border: 1px solid blue;
+    background-color: rgba(0, 0, 255, 0.2);
+    line-height: 1.5em;
+    padding: 10px;
+    margin: 50px auto;
+}
+div.container:hover{
+    background-color: blue;
+    color: white;
+}
+p.subtitle{
+    font-size: 18px;
+    font-weight: bolder;
+}
