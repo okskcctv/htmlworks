@@ -1,0 +1,7 @@
+ul li{
+    /* list-style-type: square; */
+    list-style-image: url(../images/dot.png);
+}
+ol li{
+    list-style-type: lower-roman;
+}

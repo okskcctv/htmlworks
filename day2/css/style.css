@@ -1,0 +1,16 @@
+/* 외부 스타일 */
+/* body{
+    background: radial-gradient(red, orange, yellow, green, blue, indigo, purple);
+} */
+body{
+    background-color: yellowgreen;
+}
+h2{
+    /* 글자색 */
+    color: blue;
+}
+p{
+    font-size: 18px; /* 글씨의 크기 */
+    font-family: "바탕체"; /* 글꼴 */
+    color: #0000FF;
+}

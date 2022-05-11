@@ -1,0 +1,19 @@
+table{
+    border: 3px solid green;
+    width: 500px;
+    height: 100px;
+}
+th, td{
+    border: 1px solid green;
+    text-align: center;
+}
+/* 로그인 스타일 */
+.tbl_login{
+    border: 3px solid #ccc;
+    width: 300px;
+}
+.tbl_login td{
+    border: 1px solid #ccc;
+    width: 150px;
+    height: 30px;
+}

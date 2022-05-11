@@ -1,0 +1,21 @@
+table{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 600px;
+    height: 250px;
+    text-align: center;
+}
+th, td, tr{
+    border: 1px solid #ccc;
+    width: 150px;
+}
+thead, tfoot{
+    background-color: #ddd;
+    height: 50px;
+}
+caption{
+    margin-bottom: 10px;
+}
+.head1{
+    font-weight: bold;
+}
