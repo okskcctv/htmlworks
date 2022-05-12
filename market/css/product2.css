@@ -1,0 +1,66 @@
+div{
+    width: 700px;
+    border: 1px solid #222;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+th, td{
+    border: 1px solid green;
+    text-align: center;
+}
+/* 로그인 스타일 */
+.tbl_login{
+    border: 3px solid #ccc;
+    width: 300px;
+}
+.tbl_login td{
+    border: 1px solid #ccc;
+    width: 150px;
+    height: 30px;
+}
+div#main{
+    text-align: center;
+    border: none;
+}
+div#container, div#container_n{
+    width: 800px;
+    margin: auto;
+    padding: 20px 20px;
+    border: 1px solid #000;
+    border-radius: 30px;
+}
+div#container_n{
+    border: none;
+}
+div#description{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+div#pakage{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+table#tbl_board{
+    border: 3px solid green;
+    width: 500px;
+    height: 100px;
+}
+table#tbl_pakage{
+    width: 600px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+table#tbl_pakage th, table#tbl_pakage td{
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+table#tbl_pakage td{
+    padding: 10px 10px 10px 32px;
+}
+nav{
+    margin-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: #222;
+}
