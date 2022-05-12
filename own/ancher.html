@@ -11,10 +11,17 @@
         margin: 0;
         padding: 0;
     }
-    div.menu{
+    h1, h2, p{
+        margin-left: 10px;
+    }
+    p#text1, #text2, #text3, #text4{
+        padding-top: 80px;
+    }
+    nav.menu{
         width: 100%;
         position: fixed;
         background-color: white;
+        border-bottom: 1px solid #000;
         top: 0;
         z-index: 1;
     }
@@ -23,22 +30,34 @@
     }
     ul li{
         display: inline;
+        margin-left: 1em;
+    }
+    ul li a{
+        text-decoration: none;
+        color: #000;
+    }
+    ul li:hover{
+        text-decoration: underline;
+    }
+    ul li a:hover{
+        color: blue;
     }
 </style>
-<header>
-    <div class="menu">
-        <ul id="menu">
-            <li><a href="#text1">잘부탁드립니다 - 익스(EX)</a></li>
-            <li><a href="#text2">밤편지 - 아이유(IU)</a></li>
-            <li><a href="#text2">하늘을 달리다 - 이적</a></li>
-        </ul>
-    </div>
-</header>
 <body>
     <div>
+        <header>
+            <nav class="menu">
+                <ul id="menu">
+                    <li><a href="#text1">잘부탁드립니다 - 익스(EX)</a></li>
+                    <li><a href="#text2">밤편지 - 아이유(IU)</a></li>
+                    <li><a href="#text3">하늘을 달리다 - 이적</a></li>
+                    <li><a href="#text4">제목 - 가수</a></li>
+                </ul>
+            </nav>
+        </header>
         <h1 id="top" style="padding-top: 80px;">노래 가사 모음</h1>
-        <P>노래 목록 및 노래 가사 노래 듣기 기능 넣을 예정</P>
-        <h2 id="text1">잘부탁드립니다 - 익스(EX)</h2>
+        <p id="text1"></p>
+        <h2>잘부탁드립니다 - 익스(EX)</h2>
         <p><audio src="./media/EX - 잘 부탁드립니다 (2005 MBC 대학가요제).mp3" controls></audio></p>
         <pre>
     안녕하세요
@@ -84,7 +103,8 @@
     잘 부탁드립니다
         </pre>
         <p><a href="#top">top</a></p>
-        <h2 id="text2">밤편지 - 아이유(IU)</h2>
+        <p id="text2"></p>
+        <h2>밤편지 - 아이유(IU)</h2>
         <p><audio src="./media/IU-Through the Night.mp3" controls></audio></p>
         <pre>
     이 밤 그날의 반딧불을 당신의
@@ -123,7 +143,8 @@
     좋은 꿈이길 바라요
         </pre>
         <p><a href="#top">top</a></p>
-        <h2 id="text3">하늘을 달리다 - 이적</h2>
+        <p id="text3"></p>
+        <h2>하늘을 달리다 - 이적</h2>
         <p><audio src="./media/이적-_하늘을_달리다(_2003_)_[_Running_in_the_sky_].mp3" controls></audio></p>
         <pre>
     두근거렸지 누군가
@@ -179,6 +200,13 @@
     두 다리 모두 녹아내린다고 해도
     내 맘 그대 마음속으로
     영원토록 달려갈거야
+        </pre>
+        <p><a href="#top">top</a></p>
+        <p id="text4"></p>
+        <h2>제목 - 가수</h2>
+        <p><audio src="#" controls></audio></p>
+        <pre>
+    
         </pre>
         <p><a href="#top">top</a></p>
     </div>
