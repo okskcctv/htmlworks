@@ -35,5 +35,5 @@ div#container{
     height: 700px;
     border: 20px solid #000;
     border-top: 5px solid #000;
-    background: url(../images/mic.png) no-repeat right bottom;
+    background: #fff url(../images/mic.png) no-repeat right bottom;
 }
