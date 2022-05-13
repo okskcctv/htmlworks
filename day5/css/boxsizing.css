@@ -1,0 +1,16 @@
+div{
+    width: 300px;
+    height: 150px;
+    border: 2px solid #f00;
+    margin: 10px;
+    display: inline-block;
+    padding: 20px;
+}
+.box1{
+    /* width와 height 값이 테두리와 패딩을 제외한 값이 됨 */
+    box-sizing: content-box;
+}
+.box2{
+    /* width와 height 값이 테두리와 패딩을 합한 값이 됨 */
+    box-sizing: border-box;
+}
