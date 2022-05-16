@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +13,13 @@
     <form action="#" method="post">
         <fieldset>
             <legend>type 속성</legend>
-            <p><label for="id">아이디 : </label><input type="text" name="id" id="id" autocomplete="on"  autofocus required></p>
+            <p><label for="my_id">아이디 : </label><input type="text" name="id" id="my_id" autocomplete="on" autofocus required></p>
             <p>비밀번호 : <input type="password"
                                 name="pwd" placeholder="영어, 숫자 포함 8자리로 입력하세요"></p>
             <!-- disabled -->
             <p>검색 : <input type="search" value="container" readonly></p>
             <!-- Javascript를 쓸때면 email 안쓰고 text로 함 -->
-            <p>이메일 : <input type="email" title="이메일 입력"></p>
+            <p>이메일 : <input type="email" title="이메일 입력" autocomplete="on"></p>
             <p>전화번호 : 
                 <select>
                     <option>지역번호</option>

@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0;}
+#container{width: 1200px; margin: 0 auto;}
+#header{height: 100px; background: #00f; padding: 10px;}
+#left-aside{width: 200px; height: 600px; background: #f0f; padding: 10px; float: left;}
+#contents{width: 740px; height: 600px; background: greenyellow; padding: 10px; float: left;}
+#right-aside{width: 200px; height: 600px; background: #f0f; padding: 10px; float: right;}
+#footer{height: 100px; background: #0ff; padding: 10px; clear: both;}
