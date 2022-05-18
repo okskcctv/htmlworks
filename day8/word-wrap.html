@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>긴 문자 가로맞춤</title>
+    <style>
+        ul{width: 200px; border: 1px solid #000;}
+        ul:nth-child(2){word-break: keep-all; word-wrap: break-word;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <p>이름 : 홍길동</p>
+        </li>
+        <li>
+            <p>이메일 : 가나다라마바사아자차카타파하
+                asdfsjlksdf123123jklsfdjsdfljkljkd123123fjlkfdjklaklj@hanamailnet</p>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <p>이름 : 홍길동</p>
+        </li>
+        <li>
+            <p>이메일 : 가나다라마바사아자차카타파하
+                asdfsjlksd123123fjklsfdjsdfljkljkdfjlkf123123djklaklj@hanamailnet</p>
+        </li>
+    </ul>
+</body>
+</html>

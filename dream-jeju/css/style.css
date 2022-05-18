@@ -18,9 +18,12 @@ nav{width: 800px; float: right;}
 /* index 스타일 */
 /* #contents{width: 1000px; margin: 20px auto;} */
 #healing, #activity{margin: 30px 10px;}
+#contents{margin-top: 50px;}
 #contents h2{margin-bottom: 20px;}
 #contents p{line-height: 2;}
 #healing, #activity{height: 300px;}
+#healing .schedule ul li{list-style: none;}
+#healing h3{margin: 10px 20px;}
 #healing img, #activity img{float: left; margin-right: 20px;
     border-radius: 20px;}
 #sightseeing ul li{margin: 10px 30px;}
@@ -59,3 +62,15 @@ footer{width: 1000px; margin: 30px auto;
     text-align: center;}
 #tbl_board th,#tbl_board td{border: 1px solid #ccc;}
 #tbl_board thead{background: #eee;}
+
+/* profile 스타일 */
+#profile a{text-decoration: none; color: #000;}
+#introduce img{width: 200px; height: 200px; float: left; margin: 10px;}
+#introduce div:nth-child(3){float: left;} 
+#introduce div:nth-child(3) p{margin: 10px;}
+#introduce hr{clear: both;}
+#introduce div:nth-child(5){clear: both; margin-top: 20px;}
+#introduce ul{list-style: none;}
+#introduce ul li{display: inline-block; margin: 0 10px; padding: auto;}
+#introduce audio{height: 25px;}
+#introduce ul li:nth-child(5){position: relative; top: 5px;}

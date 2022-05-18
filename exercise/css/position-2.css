@@ -1,0 +1,8 @@
+*{margin: 0; padding: 0;}
+#contents{width: 640px; height: 426px; background: url(../images/bg.jpg) no-repeat center;
+    position: relative; margin: 30px auto; background-size: cover;}
+h1{color: #fff; font-size: 108px; position: absolute; top: 180px; left: 340px;}
+
+/* #contents{width: 1000px; height: 800px; background: url(../images/bg.jpg) no-repeat center;
+    position: relative; margin: 30px auto; background-size: cover;}
+h1{color: #fff; font-size: 180px; position: absolute; top: 350px; left: 550px;} */
