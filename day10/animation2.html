@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation 속성</title>
+    <style>
+        .box{
+            margin-top: 100px;
+            margin-left: 100px;
+            padding: 20px;
+            height: 100px;
+            line-height: 50px;
+            /* animation-name: moving;
+            animation-direction: alternate;
+            animation-duration: 2s;
+            animation-iteration-count: 3;
+            animation-fill-mode: forwards; */
+            animation: moving 1s alternate 5 forwards;
+        }
+        @keyframes moving{
+            from{
+                width: 200px;
+                background: yellow;
+                opacity: 0.5;
+                transform: scale(0.5) rotate(15deg);
+            }
+            50%{
+                transform: rotate(200deg);
+            }
+            to{
+                width: 400px;
+                background: orange;
+                opacity: 1;
+                transform: scale(1) rotate(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>CSS3 Animation</h2>
+    </div>
+</body>
+</html>
