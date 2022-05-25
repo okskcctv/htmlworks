@@ -1,0 +1,21 @@
+body, header, div, footer, h1, p, ul, li{margin: 0; padding: 0;}
+li{list-style: none;}
+.clear::after{content: ""; display: block; clear: both;}
+body{font: 14px 'Malgun gothic', '맑은고딕';}
+a{text-decoration: none; color: #444;}
+a:hover{text-decoration: underline;}
+#wrap{background: #cfc;}
+header{background: crimson; height: 50px;}
+header h1{float: left; margin-right: 40px;}
+header .gnb{float: left; padding-top: 10px;}
+header .gnb li{float: left;}
+header .gnb li a{display: inline-block; width: 50px; text-align: center; font-size: 16px;}
+
+#container{width: 800px; min-height: clac(100vh - 100px);}
+
+.lnb{float: left; width: 20%; background: lightgreen;}
+.lnb li a{display: block; padding: 5px 20px;}
+.content_area{float:left; width: 80%; background: forestgreen;}
+.content_area p{}
+footer{padding: 10px; background: lightgray; height: 50px;}
+footer p{text-align: center;}
